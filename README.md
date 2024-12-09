@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in TypeScript related to optional properties. The `bug.ts` file contains a function that expects an object with `x` and `y` coordinates. However, if either property is missing when calling the function, it results in a runtime error. The `bugSolution.ts` demonstrates a solution using optional properties and null checks.
